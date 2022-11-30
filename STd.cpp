@@ -4,7 +4,7 @@
 
 using namespace std;
 
-string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
+string arr1[50],arr2[50],arr3[50],arr4[50],arr5[50];
 
 int total=0;
 
@@ -22,9 +22,9 @@ void enter()
 
 			{
 
-			total=ch+total;
+			total = ch+total;
 
-			for(int i=0;i<ch;i++)
+			for(int i=0; i<ch; i++)
 
 			{
 
@@ -52,9 +52,7 @@ void enter()
 
 				
 
-			}
-
-	    	}
+			}}
 
 	    	else
 
@@ -292,7 +290,7 @@ void deleterecord()
 
 				string rollno;
 
-				cout<<"Enter the roll no of student which you wanted to delete"<<endl;
+				cout<<"Enter the roll no which you wanted to delete"<<endl;
 
 				cin>>rollno;
 
@@ -338,7 +336,7 @@ void deleterecord()
 
 			{
 
-				cout<<"Invalid input";
+				cout<<"Invalid";
 
 			}
 
@@ -356,17 +354,17 @@ main()
 
 	{
 
-	cout<<"\nPress 1 to enter data"<<endl;
+	cout<<"\nIf you want to store data then PRESS 1"<<endl;
 
-	cout<<"Press 2 to show data"<<endl;
+	cout<<"If you want to show data then PRESS 2"<<endl;
 
-	cout<<"Press 3 to search data"<<endl;
+	cout<<"If you want to search any data then PRESS 3"<<endl;
 
-	cout<<"Press 4 to update data"<<endl;
+	cout<<"If you want to update data then PRESS 4"<<endl;
 
-	cout<<"Press 5 to delete data"<<endl;
+	cout<<"If you want to delete any of them then PRESS 5"<<endl;
 
-	cout<<"Press 6 to exit"<<endl;
+	cout<<"If you want to exit from here then PRESS 6"<<endl;
 
 	cin>>value;
 
@@ -412,7 +410,7 @@ main()
 
 		default:
 
-			cout<<"Invalid input"<<endl;
+			cout<<"Invalid"<<endl;
 
 			break;
 
